@@ -27,8 +27,7 @@ export function Footer() {
               productName="Hielo polar 1.3 kg"
               businessName={iceContact.businessName}
               label="Pedir hielo"
-              variant="outline"
-              className="border-amarillo text-amarillo hover:bg-amarillo hover:text-marron"
+              variant="gold"
             />
           </div>
         </div>

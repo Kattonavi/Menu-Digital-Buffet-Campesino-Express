@@ -82,7 +82,7 @@ export function Hero() {
             />
             <a
               href="#arroces-personales"
-              className="inline-flex min-h-11 items-center justify-center gap-2 rounded-lg border-2 border-white/70 bg-white/10 px-4 py-2 text-sm font-extrabold text-white backdrop-blur transition hover:bg-white hover:text-marron focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+              className="inline-flex min-h-11 items-center justify-center gap-2 rounded-lg border-2 border-white/70 bg-marron/35 px-4 py-2 text-sm font-extrabold text-white shadow-sm backdrop-blur transition-all duration-200 ease-out hover:-translate-y-0.5 hover:border-amarillo hover:bg-amarillo hover:text-marron active:translate-y-0 active:bg-[#dca700] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amarillo"
             >
               Ver menú
               <ChevronDown className="h-5 w-5" aria-hidden="true" />
