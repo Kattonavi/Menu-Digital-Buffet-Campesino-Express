@@ -1,48 +1,71 @@
-# Buffet Campesino Express - Menú digital
+# Buffet Campesino Express - Menu digital
 
-Landing page responsive de una sola página para mostrar el menú de Buffet Campesino Express y recibir pedidos por WhatsApp.
+Landing page responsive de una sola pagina para mostrar el menu de Buffet Campesino Express y recibir pedidos por WhatsApp.
 
-## Stack
+## Stack actualizado
 
-- Next.js con App Router
-- TypeScript
-- Tailwind CSS
-- Lucide React
-- Framer Motion
-- Preparado para deploy en Railway
-- Sin base de datos, sin autenticación y sin panel administrativo
+- Next.js 16 con App Router
+- React 19 y React DOM 19
+- TypeScript 6
+- Tailwind CSS 4 con `@tailwindcss/postcss`
+- Lucide React 1
+- Framer Motion 12
+- ESLint 9 con `eslint-config-next`
+- PostCSS 8
+- Railway como plataforma pensada para deploy
+- Sin base de datos, sin autenticacion y sin panel administrativo
 
-## Correr en local
+## Instalacion
 
 ```bash
 npm install
+```
+
+## Desarrollo
+
+```bash
 npm run dev
 ```
 
 Abre `http://localhost:3000`.
 
-## Editar menú
+## Build
 
-Los productos, precios, categorías, teléfonos y textos de WhatsApp están en:
+```bash
+npm run build
+```
+
+Para correr el build de produccion localmente:
+
+```bash
+npm run start
+```
+
+## Lint
+
+```bash
+npm run lint
+```
+
+## Editar menu
+
+Los productos, precios, categorias, telefonos y textos de WhatsApp estan en:
 
 ```text
 src/data/menu.ts
 src/lib/whatsapp.ts
 ```
 
-La imagen principal del hero está en:
+Los tokens visuales de Tailwind CSS 4 estan en:
+
+```text
+src/app/globals.css
+```
+
+La imagen principal del hero esta en:
 
 ```text
 public/images/hero-comida-campesina.png
-```
-
-## Scripts
-
-```bash
-npm run dev
-npm run build
-npm run start
-npm run lint
 ```
 
 ## Deploy en Railway
@@ -53,4 +76,4 @@ El proyecto incluye `railway.toml` con:
 - Start: `npm run start`
 - Healthcheck: `/`
 
-En Railway crea un nuevo servicio desde el repositorio, confirma que el entorno use Node.js y despliega. Railway inyecta el puerto automáticamente para `next start`.
+En Railway crea un nuevo servicio desde el repositorio, confirma que use Node.js y despliega. Railway inyecta el puerto automaticamente para `next start`.

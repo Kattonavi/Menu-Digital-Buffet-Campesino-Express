@@ -20,7 +20,7 @@ const variantClasses = {
   primary:
     "bg-rojo text-white shadow-cta hover:bg-[#a91f1f] focus-visible:outline-rojo",
   compact:
-    "bg-amarillo text-marron shadow-sm hover:bg-[#f1b90c] focus-visible:outline-amarillo",
+    "bg-amarillo text-marron shadow-xs hover:bg-[#f1b90c] focus-visible:outline-amarillo",
   outline:
     "border-2 border-rojo bg-white text-rojo hover:bg-rojo hover:text-white focus-visible:outline-rojo",
 };

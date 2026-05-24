@@ -1,6 +1,22 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-crema: #fff7e8;
+  --color-rojo: #c62828;
+  --color-amarillo: #ffc928;
+  --color-marron: #5a3218;
+  --color-verde: #2e7d32;
+  --color-tinta: #181818;
+  --shadow-comida: 0 18px 45px rgba(90, 50, 24, 0.16);
+  --shadow-cta: 0 14px 30px rgba(198, 40, 40, 0.25);
+}
+
+@utility bg-paper-soft {
+  background-image:
+    radial-gradient(circle at 15% 15%, rgba(255, 201, 40, 0.18), transparent 24%),
+    radial-gradient(circle at 85% 10%, rgba(46, 125, 50, 0.12), transparent 22%),
+    linear-gradient(135deg, #fff7e8 0%, #fff0d3 100%);
+}
 
 :root {
   color: #181818;

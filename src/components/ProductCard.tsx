@@ -52,7 +52,7 @@ function Price({ price }: { price?: string }) {
   }
 
   return (
-    <p className="inline-flex w-fit rounded-lg bg-amarillo px-3 py-1 text-2xl font-black text-marron shadow-sm">
+    <p className="inline-flex w-fit rounded-lg bg-amarillo px-3 py-1 text-2xl font-black text-marron shadow-xs">
       {price}
     </p>
   );
